@@ -30,6 +30,10 @@ time.sleep(3)
 print(join)
 
 #Created an empty list for my while loop later on
+#myorderfood is to store the items ordered
+#myorderprice is to store the prices of the items
+#counter is to keep track of the items being ordered
+#total is created to add up the whole total after items are ordered
 myorderFood=[]
 myorderprice=[]
 counter=0
