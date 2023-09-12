@@ -45,8 +45,11 @@ order = input("Are you guys ready to order? Yes/No ")
 if order == "No":
     print("Ok I'll come back to you")
     exit()
+if order =="yes":
+    print("Ok what would you like")      
 else:
-    print("Ok")    
+    print("Ok")
+    exit()
 
     nextorder = True
 
