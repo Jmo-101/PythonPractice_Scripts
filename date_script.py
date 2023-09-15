@@ -51,7 +51,7 @@ else:
     print("Ok")
     exit()
 
-    nextorder = True
+nextorder = True
 
 #Created a while loop for when user is placing orders in
 #added append to my empty list variable in order for the command to add the menu item to the empty list
