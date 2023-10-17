@@ -6,7 +6,7 @@ import pandas as pd
 
 url = "https://free-nba.p.rapidapi.com/players"
 
-querystring = {"page":"0","per_page":"25"}
+querystring = {"page":"0","per_page":"100"}
 
 headers = {
 	"X-RapidAPI-Key": NBA_key,
