@@ -1,7 +1,7 @@
 import csv
 import boto3
 #create a function for IAM policy and the output csv file
-def write_iam_policies_to_csv(iam_policies_dict, output_csv_file):
+def iam_policies_to_csv():
     iam_client = boto3.client('iam')
  #created a csv file that had field names with the requested parameters   
     with open(output_csv_file, 'w', newline='') as csvfile:
@@ -14,3 +14,6 @@ def write_iam_policies_to_csv(iam_policies_dict, output_csv_file):
             policy_id = policy_response['Policy']['PolicyId']
             
             writer.writerow({'Policy Name': policy_name, 'PolicyId': policy_id, 'Arn': policy_arn})
+
+
+iam_policies_to_csv(output_csv_file)
