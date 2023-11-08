@@ -9,4 +9,15 @@ This script simulates a dating scenario where the user inputs their date's name 
 ```python
 import time
 import pandas as pd
+```
 
+# DictionaryJson.py
+
+This script was used as practice to parse through json data. We initially started off with a string and used json to convert it into a python dictionary to make it easier to parse through. Afterwards I made a function that will output the number of healthy and unhealthy checks, and another function that will output the names of unhealthy checks. Lastly used a pandas dataframe import to format the data nicely.
+
+## Imports
+```python
+import json
+import pandas as pd
+import numpy as np
+```
