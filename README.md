@@ -21,3 +21,12 @@ import json
 import pandas as pd
 import numpy as np
 ```
+# NBAtoCSV.py
+This script demonstrated the usage of import modules such as json, requests and pandas. To start off I used an API to request data from NBArapidAPI, this data provided a list of all nba players in the NBA currently. To output this API data onto our console, I needed a key from rapidAPI. Once I got the key I made a variable on a seperate file and used an import module to grab the key variable from that file to use in our script. Afterwards, I used a json module to convert it to a python dictionary and it made it easier to parse through. I converted the outputted data into a table using a pandas dataframe, afterwards outputted the data table into a csv file.
+
+## Imports
+```python
+import json
+import pandas as pd
+import requests
+```
